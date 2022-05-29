@@ -37,6 +37,10 @@ p {
   line-height: 1.5;
 }
 
+a:hover {
+  color: var(--secondary-color);
+}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -64,6 +68,10 @@ p {
   border-radius: 4px;
   text-decoration: none;
   text-transform: capitalize;
+}
+
+.secondary-link:hover {
+  color: var(--primary-color);
 }
 
 .about-paragraphs {
